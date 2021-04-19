@@ -7,7 +7,7 @@ Download files from a webpage. Permitted types are pdf and txt. By default it wi
 Run the following commands on your terminal
 
 ```
-git clone ...
+git clone https://github.com/azmodan93/files_downloader
 cd folder_name
 python -m venv venv
 source ./venv/bin/Activate # if you are in linux
