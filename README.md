@@ -11,7 +11,7 @@ git clone https://github.com/azmodan93/files_downloader
 cd folder_name
 python -m venv venv
 source ./venv/bin/Activate # if you are in linux
-./venv/script/Activate.ps1 # if you are in windows
+./venv/Scripts/Activate.ps1 # if you are in windows
 pip install -r requirements.txt
 python main.py --url <url>
 ```
