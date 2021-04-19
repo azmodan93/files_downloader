@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(
     description='Download all files from links on a website', prog='main.py')
 parser.add_argument('--url', help='url for search', dest='url', required=True)
 parser.add_argument('--output-folder', dest='output_folder',
-                    help='folder where files will be stored', required=True, default='output')
+                    help='folder where files will be stored', required=False, default='output')
 
 args = parser.parse_args()
 url = args.url
